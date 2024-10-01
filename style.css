@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #d3d3d3 ;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    gap: 10px;
+    padding-bottom: 0.4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 25px;
+}
+
+.form:hover{
+    border: solid 1px black; 
+    transition: .4s ease-in-out;  
+}
+
+#head-title{
+    text-align: center;
+    margin: 2em;
+    color: white;
+    font-size: 1.2em;
+}
+
+.login-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    border-radius: 30px;
+    padding: 0.5em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px black;
+}
+
+.input-icon{
+    height: 1.3em;
+    width: 1.5em;
+    fill: white;
+}
+
+.input-field{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+
+.button-1{
+    background-color: #252525;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-right: .5em ;
+    outline: none;
+    padding: 0.5em 1.4em;
+}
+
+.button-1:hover{
+    color: white;
+    background-color: #e907ed;
+    transition: .4s ease-in-out;
+}
+
+.button-2{
+    background-color: #252525;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-right: .5em ;
+    outline: none;
+    padding: 0.5em 1.4em;
+}
+
+.button-2:hover{
+    color: white;
+    background-color: #e907ed;
+    transition: .4s ease-in-out;
+}
+
+.button-3{
+    background-color: #252525;
+    color: white;
+    border: none;
+    outline: none;   
+    border-radius: 5px;
+    padding: .5em;
+    margin-bottom:3em  ;
+}
+
+.button-3:hover{
+    color: white;
+    background-color: #e907ed;
+    transition: .4s ease-in-out;
+}
